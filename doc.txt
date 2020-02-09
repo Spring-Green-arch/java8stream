@@ -1,0 +1,26 @@
+Java Stream
+
+* Stream pipeline consists of
+    - source
+    - 0 or more intermediate operations
+    - terminal operation
+    
+    source can come from Collections, lists, sets, arrays etc
+    intermediate operations like map,filter,sort return stream so that we can chain multiple intermediate operations
+    terminal operation like forEach,collect,reduce are void or return a non-stream result
+    
+Intermediate operations
+    - anyMatch
+    - distinct
+    - filter
+    - findFirst
+    - flatmap
+    - map
+    - skip
+    - sorted
+    
+Terminal operations
+    - forEach
+    - collect
+    - count
+    - max, min, reduce
